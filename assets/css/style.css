@@ -23,14 +23,30 @@ h2 {
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 nav a {
     margin-left: 16px;
     color: whitesmoke;
     text-decoration: none;
+    
+}
+
+.contact > header {
+    display: flex;
+    justify-content: space-between;
+    margin-bloc 25px;
+}
+
+div ul {
+    display: inline-flex;
+    justify-content: right;
     
 }
 
@@ -56,16 +72,17 @@ article {
 }
 
 article img {
-    width:100%
+    width:100%;
 }
 
 .featured {
     width: 100%;
 }
 
+
+
 footer {
     padding: 20px;
     background-color: darkslategray;
     color: white;
-    display: flex;
 }
