@@ -1,43 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: whitesmoke;
+    font-size: 24px;
 }
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
     
-    
-    header {
-    background-color: darkblue;
-    color: rgb(100, 93, 24);
+}
+
+.container > header {
+    padding: 20px;
+    background-color: darkslategray;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;   
+    padding: 1%;
 }
 
-     h1 {
-   display: flex;
-   font-size: 300%;
-   font-weight: 400;  
-}    
-
-    nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 250px;
-}
-
-    nav a {
-        color: lightgoldenrodyellow;
-        font-weight: bold;
-        text-decoration: none;
+nav a {
+    margin-left: 16px;
+    color: whitesmoke;
+    text-decoration: none;
     
-    }
+}
 
-    nav a:hover {
-        text-decoration: underline;
-    }
+section {
+    padding: 20px;
+    font-size: 32px;
+    line-height: 48px;
+}
 
-    main {
-        back
+.about-me-details {
+    display: flex;
+    align-items: flex-start;
+}
 
-    }
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 50%;
+    padding: 20px;
+}
+
+article img {
+    width:100%
+}
+
+.featured {
+    width: 100%;
+}
+
+footer {
+    padding: 20px;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+}

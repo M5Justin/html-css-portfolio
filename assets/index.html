@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./Assets/reset.css">
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 
-<body>
+<body class="container">
     <Header>
         <h1> Justin Moran</h1>
         <nav>
             <ul>
-                <li> <a href="#"> About Me</a></li>
-                <li> <a href="#"> My Work</a></li>
-                <li> <a href="#"> Contact Me</a></li>
+                <li> <a href="#about"> About Me</a></li>
+                <li> <a href="#work"> Work</a></li>
+                <li> <a href="#contact"> Contact Me</a></li>
             </ul>
         </nav>
     </Header> 
@@ -25,31 +25,54 @@
     <main>
         <section id="about">
             <header>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis accusantium voluptates fuga quasi laudantium unde asperiores. Id corrupti recusandae rem sapiente quasi tempore earum incidunt, deleniti officiis corporis in!
+                <h2>About</h2> 
             </header>
+            <div class="about-me-details">
+                <img src="https://via.placeholder.com/200" 
+                alt=" profile image">
+                <div>
+                    <p>
+                Hi my name is Justin Moran and I am currently learning about HTML and CSS. 
+                This page will display some of my work thus far and provide contact information.              
+                    </p>
+               </div>
+            </div>
         </section>
-        <section id="Work">
+        
+        <section id="work">
             <header>
                 <h2>Work</h2>
             </header>
-            <article>
+            <article class="featured">
                 <h3>Seo Refactor</h3>
-                <img src="https://via.placeholder.com/400"
-                alt=" seo refactor thumbnail"
+                <img src="https://via.placeholder.com/1200x400"
+                alt=" seo refactor thumbnail">
+            </article>
+            <article>
+                <h3>Coming Soon</h3>
+                <img src="https://via.placeholder.com/600x200"
+                alt=" seo refactor thumbnail">
+            </article>
+            <article>
+                <h3>Coming Soon</h3>
+                <img src="https://via.placeholder.com/600x200"
+                alt=" seo refactor thumbnail">
             </article>
         </section>
-            <article>
-                <h2>About Me</h2>
-                   <div>
-                        <p>
-                    Hi my name is Justin Moran and I am currently learning about HTML and CSS. 
-                    This page will display some of my work thus far and provide contact information.              
-                        </p>
-                   </div>
-            </article>    
+
+        <section id="contact">
+            <header>
+                <h2>Contact Me</h2>
+            </header>
+            
         </section>
+
+        
+        
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 
 
     
