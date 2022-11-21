@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+    
+    header {
+    background-color: darkblue;
+    color: rgb(100, 93, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;   
+}
+
+     h1 {
+   display: flex;
+   font-size: 300%;
+   font-weight: 400;  
+}    
+
+    nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+}
+
+    nav a {
+        color: lightgoldenrodyellow;
+        font-weight: bold;
+        text-decoration: none;
+    
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        back
+
+    }
